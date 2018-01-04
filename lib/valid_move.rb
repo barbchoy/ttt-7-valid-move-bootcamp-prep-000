@@ -5,6 +5,7 @@ def position_taken?(board_arr, index)
   true
 end
 
+jjjjj
 def valid_move?(board_arr, index)
   if index.bewteen?(0 , 8)
     if position_taken?(board_arr, index)
